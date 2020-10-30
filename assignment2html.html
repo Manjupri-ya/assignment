@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Patient Registration Form </title>
+    <style>
+        body{
+            background-color: blue;
+            text-align: center;
+        }
+    .wrap{
+        width: 300px;
+        padding: 5px;
+    }
+        form{
+            padding: 10px;
+            font-family: Arial;
+}
+h1{
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding:0px,5px
+    margin left: 50px;
+}
+input{
+    padding: 10px;
+    margin: 5px;
+border-radius: 5px;
+}
+.wrap input[type="submit"]
+{
+    width: 95%;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+    </style>
+    </head>
+   
+    <body> 
+        <div class="wrap">
+        <form>
+     <h1 >Patient Registration form</h1>
+        Name:<input type="text" name="txt1" placeholder="Enter name"><br>
+        Are you medically insured?:<input type="radio" name="insured" value="Y">Yes<input type="radio" name="Insured? value="N">No<br>
+        Age: <input type="text" name="txt2" placeholder="Enter your Age"><br>
+         Email:<input type="text" name="txt3" placeholder="Enter mail id"><br>
+         Phone:<input type="num" name="num" placeholder="Enter phone num" maxlength="10"><br>
+
+        Gender:<input type="radio" name="Gender" value="M" id="M">Male<input type="radio" name="" value="F" id="F">Female<br>
+Your Date of Birth
+         <br>
+        
+         <select  name="DOBmonth">
+             <option>month</option>
+         <option value="January">January</option>
+         <option value="Feburary">Feburary</option>
+         </select>
+         <select name="DOBday">
+            <option>day</option>
+            <option value="num">1</option>
+            <option value="num">2</option>
+         </select>
+            <select name="DOByear">
+            <option>year</option>
+         <option value="1991">1991</option>
+         <option value="1992">1992</option>
+         </select><br>
+<input type="checkbox">I agree with all terms and conditions<br>
+         <input type="submit" name="submit" value="Submit"> 
+    </form>
+        </div>
+
+    </body>
+    </head>
+</html>
